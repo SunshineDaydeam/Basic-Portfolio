@@ -82,6 +82,8 @@ body {
     margin-top:15px;
     margin-bottom: 10px;
     padding-left:10px;
+    border-width:1px;
+    border-color:#777777;
 }
 
 .mainSection textarea {
@@ -91,6 +93,9 @@ body {
     margin-top: 15px;
     margin-bottom: 10px;
     padding-left: 10px;
+    border-width: 1px;
+    border-color: #777777;
+
 }
 
 .aboutText {
