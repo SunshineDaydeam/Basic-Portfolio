@@ -138,9 +138,12 @@ a:active  {
     padding-left: 10px;
     border-width: 1px;
     border-color: #777777;
-
 }
 
+.mainSection button {
+    padding: 10px;
+    font-size: 18px;
+}
 /* Portfolio Page */
 
 .portfolio {
@@ -248,8 +251,8 @@ a:active  {
     z-index:2;
     height:30px;
 }
-/* Footer and Copyright Bar (ALL PAGES)*/
 
+/* Footer and Copyright Bar (ALL PAGES)*/
 footer {
     font-size: 12px;
     color: #cccccc;
