@@ -14,6 +14,7 @@ body {
     height:90px;
     width: 1398px;
     border-bottom: 2px solid #cccccc;
+
 }
 
 .nameTag {
@@ -119,6 +120,7 @@ a:active  {
     width:100%;
     height: 30px;
     font-size: 18px;
+    font-weight:100;
     line-height:150%;
     margin-top:15px;
     margin-bottom: 10px;
@@ -134,18 +136,24 @@ a:active  {
     line-height:150%;
     border-color: #777777;
 }
-
 .mainSection textarea {
     width:100%;
     height: 120px;
     font-size: 18px;
+    font-weight:100;
     margin-top: 15px;
     margin-bottom: 10px;
+    line-height:150%;
     padding-left: 10px;
     border-width: 1px;
     border-color: #777777;
 }
-
+::placeholder {
+    color: Green;
+    font-style: italic;
+    font-size:14px;
+    opacity:.5;
+}
 .mainSection button {
     padding: 10px;
     font-size: 18px;
